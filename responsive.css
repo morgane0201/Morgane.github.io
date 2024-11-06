@@ -1,0 +1,142 @@
+@media (max-width: 1024px) {
+    .menu {
+        flex-direction: column;
+        padding: 15px;
+    }
+
+    .logo {
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+
+    .menuliens {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .barre input[type="text"] {
+        width: 80%;
+    }
+
+    .oeuvres {
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    .imagesoeuvres {
+        width: 80%;
+        height: auto;
+        margin-bottom: 20px;
+    }
+
+    .commentaire-section {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .commentaire {
+        width: 90%;
+        max-width: 500px;
+    }
+}
+
+/* Smartphones en paysage (entre 576px et 768px) */
+@media (max-width: 768px) {
+    .menu ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .logo-img {
+        height: 50px;
+    }
+
+    .texte {
+        font-size: 28px;
+        padding: 8px 16px;
+    }
+
+    h1, h2 {
+        font-size: 28px;
+        padding: 15px;
+    }
+
+    .barre input[type="text"] {
+        width: 90%;
+        padding-left: 50px;
+    }
+
+    .oeuvres {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .imagesoeuvres {
+        width: 90%;
+        height: auto;
+    }
+
+    .commentaire-section {
+        flex-direction: column;
+    }
+
+    .commentaire {
+        width: 100%;
+    }
+}
+
+/* Smartphones en portrait (moins de 576px) */
+@media (max-width: 576px) {
+    .menu {
+        padding: 5px;
+    }
+
+    .logo-img {
+        height: 40px;
+    }
+
+    .menu ul li a {
+        font-size: 14px;
+    }
+
+    .texte {
+        font-size: 24px;
+        padding: 6px 12px;
+    }
+
+    h1, h2 {
+        font-size: 24px;
+        padding: 10px;
+    }
+
+    .barre input[type="text"] {
+        width: 100%;
+        padding-left: 45px;
+    }
+
+    .barre button {
+        left: 85%;
+    }
+
+    .controles {
+        gap: 5px;
+    }
+
+    .imagesoeuvres {
+        width: 95%;
+        height: auto;
+    }
+
+    .commentaire-section {
+        gap: 10px;
+    }
+
+    .commentaire {
+        width: 100%;
+    }
+
+    .comment-bubble {
+        padding: 10px 15px;
+        font-size: 14px;
+    }
+}
