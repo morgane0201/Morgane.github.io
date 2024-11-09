@@ -38,6 +38,40 @@
         width: 90%;
         max-width: 500px;
     }
+
+     h3 {
+        font-size: 32px;
+    }
+
+    .artiste {
+        gap: 15px;
+    }
+
+    .peintre {
+        width: 150px;
+    }
+
+    .artiste-photo {
+        width: 150px;
+        height: 150px;
+    }
+
+    .artworks-gallery {
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .oeuvregrande .artwork-photo {
+        width: 90%;
+    }
+
+    .oeuvrepetite .artwork-photo {
+        width: 90%;
+    }
+
+    .oeuvreportrait .artwork-photo {
+        width: 90%;
+    }
 }
 
 /* Smartphones en paysage (entre 576px et 768px) */
@@ -82,6 +116,45 @@
 
     .commentaire {
         width: 100%;
+    }
+
+    h3 {
+        font-size: 32px;
+    }
+
+    .artiste {
+        gap: 15px;
+    }
+
+    .peintre {
+        width: 150px;
+    }
+
+    .artiste-photo {
+        width: 150px;
+        height: 150px;
+    }
+
+    .artworks-gallery {
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .oeuvregrande .artwork-photo {
+        width: 90%;
+    }
+
+    .oeuvrepetite .artwork-photo {
+        width: 90%;
+    }
+
+    .oeuvreportrait .artwork-photo {
+        width: 90%;
+    }
+
+    .voir-plus-btn {
+        padding: 15px 30px;
+        font-size: 18px;
     }
 }
 
@@ -138,5 +211,55 @@
     .comment-bubble {
         padding: 10px 15px;
         font-size: 14px;
+    }
+
+     h3 {
+        font-size: 28px;
+        margin-top: 40px;
+        margin-bottom: 15px;
+    }
+
+    h4, h5 {
+        font-size: 18px;
+        padding: 15px;
+    }
+
+    .artiste {
+        flex-direction: column; 
+        gap: 10px;
+    }
+
+    .peintre {
+        width: 130px;
+    }
+
+    .artiste-photo {
+        width: 130px;
+        height: 130px;
+    }
+
+    .artworks-gallery {
+        flex-direction: column; 
+        gap: 20px;
+    }
+
+    .oeuvregrande .artwork-photo {
+        width: 100%; 
+        margin: 0;
+    }
+
+    .oeuvrepetite .artwork-photo {
+        width: 100%;
+        height: auto;
+    }
+
+    .oeuvreportrait .artwork-photo {
+        width: 100%;
+        height: auto;
+    }
+
+    .voir-plus-btn {
+        padding: 15px 30px;
+        font-size: 18px;
     }
 }
