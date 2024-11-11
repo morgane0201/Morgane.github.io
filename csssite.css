@@ -11,7 +11,7 @@ body {
 /*Haut de la page*/
 .menu {
     background-color: #ffffff;
-    padding: 10px;
+    padding: 10px 20px;
     top: 2px;
     position: relative;
     display: flex;
@@ -21,7 +21,9 @@ body {
 
 .menuliens{
     display: flex;
+    justify-content: center;
     align-items: center;
+    flex-grow: 1;
 }
 
 .menuicones{
@@ -33,6 +35,8 @@ body {
     list-style-type: none;
     margin: 0;
     padding: 0;
+    display: flex;
+    align-items: center;
 }
 
 .menu ul li {
@@ -59,13 +63,14 @@ body {
 
 /*Logo*/
 .logo{
-    margin-right: 380px;
-    right: 30px;
-    top: -17px;
+    margin-right: 150px;
+    display: flex;
+    align-items: center;
 }
 
 .logo-img{
     height: 60px;
+    width: auto;
 }
 
 /*Bandeau*/
@@ -169,9 +174,22 @@ body {
     position: relative; 
 }
 
+.input-container {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.input-container i {
+    position: absolute;
+    left: 20px; 
+    font-size: 18px; 
+    color: #000000;
+}
+
 .barre input[type="text"] {
     width: 500px;
-    padding: 10px 5px; 
+    padding: 10px 10px 10px 40px; 
     font-size: 18px;
     border: 2px solid #ccc;
     border-radius: 15px;
@@ -181,18 +199,7 @@ body {
 }
 
 .barre button {
-    position: absolute; 
-    left: 410px; 
-    top: 50%; 
-    transform: translateY(-50%); 
-    background: transparent; 
-    border: none; 
-    color: #000000; 
-    cursor: pointer;
-}
-
-.barre button i {
-    font-size: 18px; 
+    display: none;
 }
 
 /*Titre*/
