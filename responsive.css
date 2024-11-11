@@ -72,6 +72,19 @@
     .oeuvreportrait .artwork-photo {
         width: 90%;
     }
+
+    .engagements-container {
+        padding: 25px;
+        max-width: 700px;
+    }
+    
+    .findepagetitre {
+        font-size: 22px;
+    }
+    
+    .findepagetexte {
+        font-size: 15px;
+    }
 }
 
 /* Smartphones en paysage (entre 576px et 768px) */
@@ -155,6 +168,19 @@
     .voir-plus-btn {
         padding: 15px 30px;
         font-size: 18px;
+    }
+
+    .engagements-container {
+        padding: 20px;
+        max-width: 90%;
+    }
+    
+    .findepagetitre {
+        font-size: 20px;
+    }
+    
+    .findepagetexte {
+        font-size: 14px;
     }
 }
 
@@ -261,5 +287,18 @@
     .voir-plus-btn {
         padding: 15px 30px;
         font-size: 18px;
+    }
+
+    .engagements-container {
+        padding: 15px;
+        max-width: 95%;
+    }
+    
+    .findepagetitre {
+        font-size: 18px;
+    }
+    
+    .findepagetexte {
+        font-size: 13px;
     }
 }
