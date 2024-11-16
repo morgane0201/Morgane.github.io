@@ -492,3 +492,180 @@ h5{
     color: #FFFFFF; /* Texte en blanc */
     line-height: 1.6;
 }
+
+h6 {
+    font-family: 'Lato', sans-serif; 
+    font-size: 36px; 
+    color: #000000;
+    text-align: center;
+    margin-top: 70px; 
+    margin-bottom: 20px; 
+    text-transform: uppercase; 
+    letter-spacing: 1px; 
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.8); 
+    border-radius: 5px; 
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2); 
+}
+
+.picgalerie {
+    display: flex;             
+    align-items: flex-start;       
+    gap: 20px;                 
+    max-width: 1000px;         
+    margin: 30px auto; 
+    margin-top: 45px;             
+  }
+
+.picgalerie img {
+    width: 450px;              
+    height: auto;              
+    border-radius: 10px; 
+    object-fit: cover;      
+  }
+
+.texte2 {
+    flex: 1; 
+    display: flex;
+    flex-direction: column; 
+    justify-content: flex-start; 
+    gap: 10px;           
+  }
+
+.texte2 h7{
+    font-family: 'Lato', sans-serif;
+    color: #000000; 
+    font-size: 28px; 
+    font-weight: bold;
+    padding: 15px;
+}
+
+.texte2 p {
+    font-family: 'Lato', sans-serif;
+    color : black;
+    font-size: 18px;
+    line-height: 1.6;
+    padding: 15px;
+}
+
+.en-savoir-plus {
+    display: inline-block;      
+    margin-top: 5px;           
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    color: #007BFF;             
+    text-decoration: none;      
+    font-weight: bold;
+    transition: color 0.3s ease; 
+    padding: 15px;
+}
+
+.en-savoir-plus:hover {
+    color: #0056b3;             
+}
+
+/*Inscription*/
+.inspiration-section {
+    background-color: #f9f4ef; 
+    padding: 60px 20px;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+}
+
+.inspiration-section h8 {
+    font-size: 36px;
+    color: #333;
+    margin-bottom: 15px;
+    font-weight: 700;
+}
+
+.inspiration-section p {
+    font-size: 20px;
+    color: #666;
+    margin-bottom: 30px;
+}
+
+.inscription {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 40px;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.image-container img {
+    width: 450px;
+    height: auto;
+    border-radius: 15px;
+    object-fit: cover;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.image-container img:hover {
+    transform: scale(1.05); 
+}
+
+.formulaire {
+    background-color: #ffffff;
+    padding: 30px 40px;
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-container form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center; 
+}
+
+.formulaire form input,
+.formulaire form textarea {
+    width: 100%;
+    max-width: 300px;
+    padding: 12px 15px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    font-size: 16px;
+    transition: border-color 0.3s;
+}
+
+.formulaire form input:focus,
+.formulaire form textarea:focus {
+    border-color: #007BFF;
+    outline: none;
+}
+
+.formulaire form button {
+    width: 100%;
+    padding: 12px 20px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.formulaire form button:hover {
+    background-color: #0056b3;
+    transform: translateY(-2px);
+}
+
+.formulaire form button:active {
+    transform: translateY(0);
+}
+
