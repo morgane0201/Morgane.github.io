@@ -338,4 +338,24 @@
     .findepagetexte {
         font-size: 13px;
     }
+
+     .picgalerie img {
+        width: 100%;            
+        max-width: 300px;
+    }
+
+    .texte2 h7 {
+        font-size: 20px;        
+    }
+
+    .texte2 p {
+        font-size: 14px;
+    }
+
+    .en-savoir-plus {
+        font-size: 14px;
+        padding: 10px;
+    }
 }
+
+
