@@ -85,6 +85,25 @@
     .findepagetexte {
         font-size: 15px;
     }
+
+    .picgalerie {
+        flex-direction: column; 
+        align-items: center;     
+        gap: 15px;
+    }
+
+    .picgalerie img {
+        width: 80%;             
+        max-width: 400px;
+    }
+
+    .texte2 h7 {
+        font-size: 24px;        
+    }
+
+    .texte2 p, .en-savoir-plus {
+        font-size: 16px;        
+    }
 }
 
 /* Smartphones en paysage (entre 576px et 768px) */
