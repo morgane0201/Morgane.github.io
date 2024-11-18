@@ -201,7 +201,25 @@
     .findepagetexte {
         font-size: 14px;
     }
+
+      .picgalerie img {
+        width: 90%;            
+        max-width: 350px;
+    }
+
+    .texte2 {
+        text-align: center;     
+    }
+
+    .texte2 h7 {
+        font-size: 22px;
+    }
+
+    .texte2 p, .en-savoir-plus {
+        font-size: 15px;
+    }
 }
+
 
 /* Smartphones en portrait (moins de 576px) */
 @media (max-width: 576px) {
