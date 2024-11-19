@@ -387,6 +387,16 @@
         font-size: 14px;
         padding: 10px;
     }
+
+      .reseaux-container {
+        padding: 15px;
+    }
+
+    .serviceclient-section h9 {
+        font-size: 15px;
+    }
+
+    .serviceclient-section ul li {
+        font-size: 12px;
+    }
 }
-
-
