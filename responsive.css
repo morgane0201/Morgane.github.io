@@ -230,8 +230,27 @@
     .texte2 p, .en-savoir-plus {
         font-size: 15px;
     }
-}
 
+      .reseaux-container {
+        flex-direction: column;
+        align-items: center; 
+        padding: 20px;
+    }
+
+    .serviceclient-section {
+        margin: 15px 0; 
+        text-align: center;
+    }
+
+    .serviceclient-section h9 {
+        font-size: 16px;
+        margin-bottom: 8px;
+    }
+
+    .serviceclient-section ul li {
+        font-size: 13px;
+    }
+}
 
 /* Smartphones en portrait (moins de 576px) */
 @media (max-width: 576px) {
