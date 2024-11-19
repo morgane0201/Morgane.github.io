@@ -104,6 +104,18 @@
     .texte2 p, .en-savoir-plus {
         font-size: 16px;        
     }
+
+     .reseaux-container {
+        padding: 20px 30px;
+    }
+
+    .serviceclient-section h9 {
+        font-size: 16px;
+    }
+
+    .serviceclient-section ul li {
+        font-size: 13px;
+    }
 }
 
 /* Smartphones en paysage (entre 576px et 768px) */
