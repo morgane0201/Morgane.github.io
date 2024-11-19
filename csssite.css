@@ -669,3 +669,28 @@ h6 {
     transform: translateY(0);
 }
 
+/*Fin site*/
+.reseaux-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    background-color: #d8bfe8;
+    padding: 30px 40px;
+    flex-wrap: wrap;
+}
+
+.serviceclient-section {
+    flex: 1;
+    margin: 0 10px;
+    text-align: center;
+    min-width: 250px;
+}
+
+.serviceclient-section h9 {
+    font-size: 18px;
+    color: #4c3d5b;
+    font-weight: bold;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #b799d4;
+    padding-bottom: 5px;
+}
