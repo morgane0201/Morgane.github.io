@@ -717,3 +717,10 @@ h6 {
     color: #750bd3;
     text-decoration: underline;
 }
+
+.serviceclient-section .social-icons {
+    display: flex;
+    gap: 8px;
+    margin-top: 15px;
+    justify-content: center;
+}
