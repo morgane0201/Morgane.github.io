@@ -256,6 +256,12 @@
     .serviceclient-section ul li {
         font-size: 13px;
     }
+
+      .serviceclient-section .social-icons a {
+        width: 35px;
+        height: 35px;
+        font-size: 14px;
+    }
 }
 
 /* Smartphones en portrait (moins de 576px) */
