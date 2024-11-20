@@ -411,4 +411,15 @@
     .serviceclient-section ul li {
         font-size: 12px;
     }
+
+     .serviceclient-section .social-icons {
+        flex-wrap: wrap; 
+        gap: 6px;
+    }
+
+    .serviceclient-section .social-icons a {
+        width: 30px;
+        height: 30px;
+        font-size: 12px;
+    }
 }
